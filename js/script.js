@@ -74,8 +74,8 @@ $(window).scroll(function () { // Отслеживаем начало прокр
    let scrolled = $(window).scrollTop(); // Вычисляем сколько было прокручено.
 
    if (scrolled > 350) { // Если высота прокрутки больше 350 - показываем кнопку
-      $('.back-to-top').addClass('active');
+      $('.back-to-top').addClass('back');
    } else {
-      $('.back-to-top').removeClass('active');
+      $('.back-to-top').removeClass('back');
    }
 });
